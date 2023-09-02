@@ -1,0 +1,7 @@
+#include <tunables/global>
+profile nginx-profile-3 flags=(attach_disconnected) {
+  #include <abstractions/base>
+  file,
+  deny /tmp/** w,
+}
+
