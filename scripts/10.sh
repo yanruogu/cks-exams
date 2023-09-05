@@ -86,4 +86,4 @@ spec:
   restartPolicy: Always
 EOF
 
-kubectl apply -f baby-yoda.yaml -f yoda.yaml -f rex.yaml -f r2d2.yaml 
+kubectl apply -f /tmp/baby-yoda.yaml -f /tmp/yoda.yaml -f /tmp/rex.yaml -f /tmp/r2d2.yaml 

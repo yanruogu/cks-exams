@@ -19,6 +19,7 @@ spec:
       labels:
         app: web1
     spec:
+      nodeName: k8s-worker1
       containers:
       - image: httpd
         name: httpd
@@ -43,6 +44,7 @@ spec:
       labels:
         app: web2
     spec:
+      nodeName: k8s-worker1
       containers:
       - image: httpd
         name: httpd
@@ -67,6 +69,7 @@ spec:
       labels:
         app: web3
     spec:
+      nodeName: k8s-worker1
       containers:
       - image: httpd
         name: httpd
